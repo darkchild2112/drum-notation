@@ -1,0 +1,18 @@
+.line {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.highHat {
+  margin-top: 4px;
+}
+
+.snare {
+  margin-top: 32px;
+}
+
+.bassDrum {
+  margin-top: 32px;
+}
