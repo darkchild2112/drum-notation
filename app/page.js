@@ -8,27 +8,12 @@ import Line from "./ui/line/line";
 // Stealing a lot from here:
 // https://codepen.io/gvissing/pen/BKmmpJ
 
+// Drum Key
+// https://www.onlinedrummer.com/pages/drum-key
+
 export default function Home() {
   return (
     <main className={styles.main}>
-      {/* <section className={styles.count}>
-        <section>1</section>
-        <section>e</section>
-        <section>&</section>
-        <section>er</section>
-        <section>2</section>
-        <section>e</section>
-        <section>&</section>
-        <section>er</section>
-        <section>3</section>
-        <section>e</section>
-        <section>&</section>
-        <section>er</section>
-        <section>4</section>
-        <section>e</section>
-        <section>&</section>
-        <section>er</section>
-      </section> */}
       <Stave>
         <Bar>
           <Line drumType="high-hat">

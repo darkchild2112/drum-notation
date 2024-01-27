@@ -2,13 +2,23 @@
   border-left: 1px solid black;
   width: 100%;
 
-  margin-top: 16px;
-  margin-bottom: 16px;
+  /* margin-top: 16px;
+  margin-bottom: 16px; */
 
-  padding-left: 3px;
-  padding-right: 3px;
+  /* padding-left: 3px;
+  padding-right: 3px; */
 }
 
+/* .bar::before {
+  content: '';
+  position: relative;
+  display: flex;
+  top: 0px;
+  height: 100%;
+  width: 1px;
+  background-color: red;
+} */
+
 .bar:last-child {
-  border-right: 1px solid black;
+  border-right: 1px solid black; 
 }
