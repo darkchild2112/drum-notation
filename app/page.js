@@ -35,8 +35,26 @@ export default function Home() {
             <Note />
           </Line>
         </Bar>
-        <Bar />
-        <Bar />
+        <Bar>
+        <Line drumType="high-hat">
+            <Note />
+            <Note />
+            <Note />
+            <Note />
+            <Note />
+            <Note />
+            <Note />
+            <Note />
+          </Line>
+          <Line drumType="snare">
+            <Note />
+            <Note />
+          </Line>
+          <Line drumType="bass-drum">
+            <Note />
+            <Note />
+          </Line>
+        </Bar>
       </Stave>
     </main>
   );

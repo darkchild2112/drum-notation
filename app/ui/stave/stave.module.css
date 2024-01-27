@@ -17,6 +17,19 @@
   display: flex;
 }
 
+.stave::before {
+  content: '';
+  position: relative;
+  top: 32px;
+  left: 0;
+  width: 10px;
+  height: 32px;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /* .line {
   border-bottom: 1px solid black;
   height: 10px;
