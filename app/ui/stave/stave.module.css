@@ -30,6 +30,19 @@
   margin-right: 10px;
 }
 
+.timeSignature{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  padding: 14px 0 0 0;
+  margin: 0;
+  line-height: 35px;
+}
+
 /* .line {
   border-bottom: 1px solid black;
   height: 10px;
