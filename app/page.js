@@ -76,6 +76,84 @@ export default function Home() {
           </Line>
         </Bar>
       </Stave>
+      <Stave>
+        <Bar>
+          <Line drumType="high-hat">
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+          </Line>
+          <Line drumType="snare">
+            <Rest type="quarter" />
+            <Note type="quarter" />
+            <Rest type="quarter" />
+            <Note type="quarter" />
+          </Line>
+          <Line drumType="bass-drum">
+            <Note type="quarter" />
+            <Rest type="quarter" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Rest type="quarter" />
+          </Line>
+        </Bar>
+        <Bar>
+          <Line drumType="snare">
+            <Note type="eighth" />
+            <Note type="eighth" />
+          </Line>
+          <Line drumType="tom-one">
+            <Rest type="quarter" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+          </Line>
+          <Line drumType="tom-two">
+            <Rest type="quarter" />
+            <Rest type="quarter" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+          </Line>
+          <Line drumType="floor-tom">
+            <Rest type="quarter" />
+            <Rest type="quarter" />
+            <Rest type="quarter" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+          </Line>
+        </Bar>
+      </Stave>
+
+      <Stave>
+        <Bar>
+          <Line drumType="high-hat">
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+            <Note type="eighth" />
+          </Line>
+          <Line drumType="snare">
+            <Rest type="quarter" />
+            <Note type="quarter" />
+            <Rest type="quarter" />
+            <Note type="quarter" />
+          </Line>
+          <Line drumType="bass-drum">
+            <Note type="quarter" />
+            <Rest type="quarter" />
+            <Note type="quarter" />
+            <Rest type="quarter" />
+          </Line>
+        </Bar>
+      </Stave>
     </main>
   );
 }
