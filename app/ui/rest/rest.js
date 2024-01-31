@@ -1,18 +1,18 @@
-import styles from "./note.module.css";
+import styles from "./rest.module.css";
 
-export default function Note({type}) {
+export default function Rest({type}) {
 
-  const noteType = GetNoteType(type);
+  const restType = GetRestType(type);
   return (
-    <section className={`${styles.note} ${noteType}`}>
+    <section className={`${styles.rest} ${restType}`}>
 
     </section>
   )
 }
 
-function GetNoteType(noteType)
+function GetRestType(restType)
 {
-  switch(noteType) {
+  switch(restType) {
     case "quarter":
       return styles.quarter;
     case "quarter-rest":

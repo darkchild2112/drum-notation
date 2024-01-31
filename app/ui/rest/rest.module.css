@@ -1,19 +1,19 @@
-.note {
+.rest {
   width: 14px;
   height: 10px;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid transparent;
   transform: rotatez(-20deg);
   margin-top: -16px;
-  background-color: black;
+  background-color: transparent;
   margin-right: 2px;
 }
 
-.note:after {
+.rest:after {
   content: "";
   height: 28px;
   width: 1px;
-  background-color: black;
+  background-color: transparent;
   position: absolute;
   top: -22px;
   left: 19px;
